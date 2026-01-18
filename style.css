@@ -1,8 +1,8 @@
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
 body {
-  background: #0b0b0b;
-  color: #fff;
+  background: #ffffff;
+  color: #111111;
   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", Arial, sans-serif;
 }
 
@@ -26,7 +26,7 @@ body {
   width: 28px; height: 28px;
   border-radius: 8px;
   display: grid; place-items: center;
-  background: rgba(0,0,0,0.12);
+  background: rgba(0,0,0,0.06);
 }
 .brand-title{ letter-spacing: 0.5px; }
 
@@ -38,14 +38,14 @@ body {
 }
 .tabs a{
   text-decoration: none;
-  color: #0b0b0b;
-  background: rgba(255,255,255,0.55);
+  color: #111111;
+  background: #eef2ff;
   padding: 8px 12px;
   border-radius: 999px;
   font-weight: 800;
 }
 .tabs a.active{
-  background: #0b0b0b;
+  background: #111111;
   color: #ffffff;
 }
 
@@ -63,21 +63,21 @@ body {
 }
 .desc{
   margin: 0 0 16px;
-  color: rgba(255,255,255,0.72);
+  color: rgba(0,0,0,0.6);
 }
 
 /* CARDS */
 .card, .hero-card{
-  background: #151515;
-  border: 1px solid rgba(255,255,255,0.10);
+  background: #f7f7f9;
+  border: 1px solid rgba(0,0,0,0.08);
   border-radius: 16px;
   padding: 18px;
-  box-shadow: 0 0 14px rgba(255,255,255,0.05);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
 }
 
 .hero-card .kicker{
   margin: 0 0 6px;
-  color: rgba(255,255,255,0.75);
+  color: rgba(0,0,0,0.55);
   font-weight: 700;
 }
 .hero-card h1{
@@ -100,7 +100,7 @@ body {
 }
 .logo-placeholder{
   margin: 0;
-  color: rgba(255,255,255,0.7);
+  color: rgba(0,0,0,0.6);
   font-weight: 800;
   letter-spacing: 2px;
 }
@@ -112,15 +112,15 @@ body {
   gap: 12px;
 }
 .info-card{
-  background: #0f0f0f;
-  border: 1px solid rgba(255,255,255,0.10);
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,0.08);
   border-radius: 14px;
   padding: 14px;
 }
 .info-card.wide{ grid-column: span 2; }
 .label{
   margin: 0 0 6px;
-  color: rgba(255,255,255,0.65);
+  color: rgba(0,0,0,0.55);
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -146,17 +146,17 @@ body {
 }
 .btn.primary{
   background: #8AAEE0;
-  color: #0b0b0b;
+  color: #111111;
 }
 .btn.ghost{
-  border: 1px solid rgba(255,255,255,0.22);
-  color: #fff;
-  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(0,0,0,0.22);
+  color: #111111;
+  background: rgba(0,0,0,0.04);
 }
 
 .tiny{
   margin-top: 12px;
-  color: rgba(255,255,255,0.65);
+  color: rgba(0,0,0,0.55);
   font-size: 13px;
 }
 
@@ -174,7 +174,7 @@ body {
 ul{ padding-left: 18px; margin: 10px 0 0; }
 .note{
   margin-top: 10px;
-  color: rgba(255,255,255,0.65);
+  color: rgba(0,0,0,0.55);
   font-size: 13px;
 }
 
@@ -187,10 +187,10 @@ ul{ padding-left: 18px; margin: 10px 0 0; }
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 .team li:last-child{ border-bottom: none; }
-.role{ color: rgba(255,255,255,0.7); font-weight: 700; }
+.role{ color: rgba(0,0,0,0.6); font-weight: 700; }
 .name{ font-weight: 900; }
 
 /* NOTICE */
@@ -200,6 +200,6 @@ ul{ padding-left: 18px; margin: 10px 0 0; }
 }
 .notice-list li{
   padding: 10px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(0,0,0,0.08);
 }
 .notice-list li:last-child{ border-bottom: none; }
