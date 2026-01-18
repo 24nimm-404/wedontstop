@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  font-family: "Arial", "Apple SD Gothic Neo", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #0b0b0b;
+  color: #fff;
+}
+
+/* HERO */
+.hero {
+  padding: 70px 20px;
+  text-align: center;
+  background:
+    repeating-linear-gradient(
+      45deg,
+      #8AAEE0 0px,
+      #8AAEE0 24px,
+      #ffffff 24px,
+      #ffffff 48px
+    );
+  color: #0b0b0b;
+}
+
+.hero h1 {
+  font-size: 30px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  font-size: 22px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+S
+
+/* CARD */
+.card {
+  background: #151515;
+  margin: 16px;
+  padding: 22px;
+  border-radius: 14px;
+  box-shadow: 0 0 12px rgba(255,255,255,0.05);
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #ff2d2d;
+  letter-spacing: 1px;
+}
+
+.highlight {
+  color: #ffd700;
+  font-weight: bold;
+}
+
+.notice {
+  border: 2px dashed #ff2d2d;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 18px;
+  background: #ff2d2d;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 999px;
+  font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px 0;
+  font-size: 13px;
+  color: #aaa;
+}
