@@ -1,7 +1,7 @@
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
 body {
-  background: #ffffff;
+  background: #8AAEE0;
   color: #111111;
   font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", Arial, sans-serif;
 }
@@ -13,6 +13,7 @@ body {
   z-index: 10;
   padding: 12px 14px;
   border-bottom: 1px solid #8AAEE0;
+  background: #8AAEE0;
   backdrop-filter: blur(8px);
 }
 
@@ -21,6 +22,19 @@ body {
   align-items: center;
   gap: 8px;
   font-weight: 900;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 6px;
+}
+.brand-logo{
+  width: 500px;
+  height: auto;
+  max-width: 500px;
+  border-radius: 0;
+  object-fit: cover;
+  padding: 0;
+  background: transparent;
 }
 .badge{
   width: 28px; height: 28px;
@@ -87,15 +101,15 @@ body {
 }
 
 .logo-box{
-  border: 2px dashed rgba(138,174,224,0.8);
+  border: 0px dashed rgba(138,174,224,0.8);
   border-radius: 16px;
   padding: 18px;
   margin: 10px 0 16px;
   text-align: center;
 }
 .logo-box img{
-  max-width: 220px;
-  width: 100%;
+  max-width: 250px;
+  width: 150%;
   height: auto;
 }
 .logo-placeholder{
