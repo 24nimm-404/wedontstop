@@ -99,6 +99,14 @@ body {
   font-size: 34px;
   letter-spacing: 1px;
 }
+.poster{
+  display: block;
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  margin: 0 auto 16px;
+  border-radius: 12px;
+}
 
 .logo-box{
   border: 0px dashed rgba(138,174,224,0.8);
@@ -129,7 +137,7 @@ body {
   background: #ffffff;
   border: 1px solid rgba(0,0,0,0.08);
   border-radius: 14px;
-  padding: 14px;
+  padding: 30px;
 }
 .info-card.wide{ grid-column: span 2; }
 .label{
