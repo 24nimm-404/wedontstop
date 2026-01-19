@@ -8,10 +8,10 @@ body {
 
 /* TOP BAR */
 .topbar{
-  position: sticky;
+  position: static;
   top: 0;
   z-index: 10;
-  padding: 12px 14px;
+  padding: 6px 10px;
   border-bottom: 1px solid #ffffff;
   background-color: #8AAEE0;
   background-image:
@@ -104,11 +104,15 @@ body {
   margin: 0 0 6px;
   color: rgba(0,0,0,0.55);
   font-weight: 700;
+  text-align: center;
 }
 .hero-card h1{
   margin: 0 0 14px;
+  color: #8AAEE0;
   font-size: 34px;
   letter-spacing: 1px;
+  text-align: center;
+
 }
 .poster{
   display: block;
