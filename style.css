@@ -15,6 +15,9 @@ body {
   border-bottom: 1px solid #8AAEE0;
   background: #8AAEE0;
   backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .brand{
@@ -49,6 +52,7 @@ body {
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .tabs a{
   text-decoration: none;
