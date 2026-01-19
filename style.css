@@ -12,8 +12,15 @@ body {
   top: 0;
   z-index: 10;
   padding: 12px 14px;
-  border-bottom: 1px solid #8AAEE0;
-  background: #8AAEE0;
+  border-bottom: 1px solid #ffffff;
+  background-color: #8AAEE0;
+  background-image:
+    linear-gradient(45deg, #ffffff 25%, transparent 25%),
+    linear-gradient(-45deg, #ffffff 25%, transparent 25%),
+    linear-gradient(45deg, transparent 75%, #ffffff 75%),
+    linear-gradient(-45deg, transparent 75%, #ffffff 75%);
+  background-size: 40px 40px;
+  background-position: 0 0, 0 20px, 20px -20px, -20px 0;
   backdrop-filter: blur(8px);
   display: flex;
   flex-direction: column;
